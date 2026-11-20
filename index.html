@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#0b0c0f">
 <title>Viaje a Europa</title>
@@ -347,6 +347,9 @@ input::placeholder{color:var(--mute)}
 @media(min-width:600px){.cc{width:220px}.wc{width:60%}}
 @media(max-width:360px){.phr,.docs{grid-template-columns:minmax(0,1fr)}.gtop{grid-template-columns:minmax(0,1fr)}.donut{margin:0 auto}}
 .cred{margin:20px 0 8px;color:var(--soft);font-size:13px;line-height:1.45}.cred summary{cursor:pointer;font-weight:600}.cred p{margin:8px 0 0}.cred ul{margin:6px 0 0;padding-left:18px}.cred li{margin:3px 0}.cred a{color:inherit;text-decoration:underline}
+
+/* la app no se agranda con dos dedos: solo el mapa hace zoom */
+html,body{touch-action:pan-x pan-y}
 </style>
 </head>
 <body>
